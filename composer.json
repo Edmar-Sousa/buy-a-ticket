@@ -1,0 +1,22 @@
+{
+    "name": "edinho/buy-a-ticket",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Api\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Edmar-Sousa",
+            "email": "edmarsousamendes4@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "phalcon/ide-stubs": "^v5.0"
+    },
+    "require": {
+        "ramsey/uuid": "^4.9"
+    }
+}
